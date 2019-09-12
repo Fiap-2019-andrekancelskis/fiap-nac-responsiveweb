@@ -1,0 +1,117 @@
+@import	url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+html, body {
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+body {
+	background-image: url(../img/cadastro.jpg);
+	background-size: cover;
+	display: flex;
+	justify-content: space-around;
+	background-repeat: no-repeat;
+}
+
+.left {
+	width: 50%;
+	height: 100%;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 35px;
+	text-align: center;
+}
+
+.left p {
+	width: 50%;
+	margin-left: 22%;
+	margin-top: 32%;
+	color: #BEBEBE;
+	text-align: center;
+}
+
+.right {
+	text-align: center;
+	width: 50%;
+}
+
+.right p {
+	color: #BEBEBE;
+	font-family: 'Montserrat', sans-serif;
+}
+
+form {
+	text-align: center;
+	padding: 60px 30px;
+}
+
+.input {
+	border-radius: 15px;
+	border-style: none;
+	background-color: #3D3636;
+	padding: 7.5px 20px;
+	color: #fff;
+	outline: none;
+}
+
+label {
+	color: white;
+	font-family: 'Lexend Deca', sans-serif;
+	text-align: center;
+	margin-left: 30px;
+}
+
+.botao {
+	border-radius: 3px;
+	border-style: none;
+	background-color: #01A200;
+	margin-left: 5%;
+	color: #F2F2F2;
+	padding: 10px 20px;
+	cursor: pointer;
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+}
+
+.botao a {
+	border-radius: 3px;
+	border-style: none;
+	background-color: #01A200;
+	margin-left: 5%;
+	color: #F2F2F2;
+	text-decoration: none;
+	display: block;
+	width: 100%;
+}
+
+.hora {
+	margin-bottom: 30px;
+}
+
+input {
+	margin: 20px 0;
+}
+
+input[type="time"] {
+	background-color: #3D3636;
+	border: none;
+	color: #fff;
+	border-radius: 5px;
+	padding: 5px 20px;
+}
+
+#logado {
+	text-align: center;
+}
+
+#logado p {
+	color: #000;
+}
+
+#logado a {
+	color: #fff;
+	text-decoration: none;
+}

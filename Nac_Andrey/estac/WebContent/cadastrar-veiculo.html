@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link
+	href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
+	rel="stylesheet">
+<link
+	href="https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap"
+	rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/main.css" />
+<link rel="shortcut icon" href="img/avengers.png">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Login-Estacionamento</title>
+</head>
+<body>
+	<div class="left">
+		<p>O único estacionamento ilimitado da galáxia</p>
+	</div>
+	<div class="right">
+		<form action="estacionamento" method="POST">
+			<label for="placa">Placa</label> <input type="text" name="placa"
+				class="input" id="placa" placeholder="Digite a placa" required><br />
+
+			<label for="marca">Marca </label> <input type="text" name="marca"
+				class="input" id="marca" placeholder="Digite a marca" required><br />
+
+			<label for="modelo">Modelo </label> <input type="text" name="modelo"
+				class="input" id="modelo" placeholder="Digite o modelo" required><br />
+
+			<div class="hora">
+				<label for="">Entrada</label> <input type="time" name="entrada"
+					required> <label for="">Saída</label> <input type="time"
+					name="saida" required>
+			</div>
+
+			<button class="botao">enviar</button>
+		</form>
+	</div>
+
+	<div id="logado">
+		<p>
+			Seja bem-vindo <span></span>! <a href="logout">Deslogar</a>
+		</p>
+	</div>
+
+	<script type="text/javascript" src="js/validar.js"></script>
+</body>
+</html>
